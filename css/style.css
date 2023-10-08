@@ -1,0 +1,99 @@
+body{
+    background-color: white;
+    text-align: center;
+    margin: 0;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.top-container{
+    background-color: #B8A7EE;
+    position: relative;
+    padding-top: 100px;
+}
+.text-head{
+    color: white;
+}
+h1{
+    color:#2d1674;
+    font-size: 5.625rem;
+    margin-top: 100px;
+    font-family: "Tangerine", cursive;
+}
+h2{
+    color: #2d1674;
+    font-weight: normal;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+h3{
+    color:#2d1674;
+    font-weight: normal;
+}
+p{
+    line-height: 2;
+}
+.cloud1{
+    position: absolute;
+    top: 10px;
+    right: 250px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 50px;
+    
+}
+.toping img{
+    padding-left: 6em;
+    margin-right: 70px;
+  }
+.middle-container{
+    margin: 100px 0;
+}
+.ptext{
+    margin: auto;
+    width: 30%;
+}
+hr{
+        border: dotted #FFE4C4 6px;
+        border-bottom: none;
+        width: 4%;
+        margin: 100px auto;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+a{
+    margin: 80px 20px;
+    text-decoration: none;
+    color: #B8A7EE ;
+}
+.btn{
+    background: #2d1674 ;
+    color: white;
+    border-radius: 10%;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    }
+.bottom-container{
+    background-color:#2d1674;
+    padding: 50px 0 20px;
+}
+.copyright{
+    color: white;
+    padding: 20px 0 ;
+    font-size: 0.75rem;
+}
